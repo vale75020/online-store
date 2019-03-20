@@ -12,7 +12,10 @@ body {
   font-family: 'Oswald', sans-serif !important; 
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
+  display: flex;
+  align-items:center
 }
+
  /* class pour les titres. on met pas !important car c'est une class */
 .text-title{
   font-family: 'Permanent Marker', cursive;
